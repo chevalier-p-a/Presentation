@@ -1,0 +1,329 @@
+﻿@font-face
+  {
+
+    font-family: 'learning_curve_proregular';
+    src: url('Polices/LearningCurve_OT-webfont.eot');
+    src: url('Polices/LearningCurve_OT-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Polices/LearningCurve_OT-webfont.woff') format('woff'),
+         url('Polices/LearningCurve_OT-webfont.ttf') format('truetype'),
+         url('Polices/LearningCurve_OT-webfont.svg#learning_curve_proregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+  }
+
+body
+  {
+
+    font-family: "Comic Sans MS", Arial, serif;
+
+  }
+
+#page
+  {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    background-color: rgb(218,236,240);
+    border-radius: 20px;
+  }
+
+#rubrique
+  {
+    width: 85%
+  }
+
+aside
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-right: 8px;
+    width: 15%;
+    background-color: rgb(245,152,61);
+    border-radius: 20px;
+  }
+
+header
+  {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 15%;
+    margin-top: 10px;
+    margin-bottom: 55px;
+  }
+
+#titre
+  {
+    width: 85%;
+    text-align: center;
+  }
+
+#titre h1
+  {
+    font-family: "learning_curve_proregular", Arial, serif;
+    font-weight: bold;
+    font-size: 5em;
+    color: rgba(10,10,200,0.6);
+    margin-bottom: 0px;
+    margin-top: 0px
+  }
+
+#titre p
+  {
+    margin-left: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 1.3em;
+    color: blue;
+    font-weight: bold;
+  }
+
+#photo img
+  {
+    box-shadow: 3px 2px silver;
+    border-radius: 5px;
+  }
+
+section
+  {
+    display: flex;
+  }
+
+section h2
+  {
+    color: rgba(10,10,170,0.8);
+    font-family: "learning_curve_proregular", Arial, serif;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    font-size: 4em;
+  }
+
+section img
+  {
+    margin-right: 15px;
+  }
+
+#experiences
+  {
+    width: 35%;
+  }
+
+#compétences
+  {
+    width: 30%;
+  }
+
+#formations
+  {
+    width: 35%;
+  }
+
+footer
+  {
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid rgb(245,152,61);
+    align-items: center;
+  }
+
+#divers
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 300px;
+  }
+
+#divers h2
+  {
+    margin-right: 25px;
+    font-family: "learning_curve_proregular", Arial, serif;
+    color: rgba(10,10,170,0.8);
+    font-size: 4em;
+  }
+
+
+strong
+  {
+    color: blue;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+  }
+
+#adresse
+  {
+    display: flex;
+    justify-content: space-between;
+    hyphens: auto;
+    word-wrap: break-word;
+  }
+
+#telephone
+  {
+    display: flex;
+    justify-content: space-between;
+    hyphens: auto;
+    word-wrap: break-word;
+  }
+
+#mail
+  {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    hyphens: auto;
+    word-wrap: break-word;
+  }
+
+aside img
+  {
+    width: 30%;
+    margin: auto;
+  }
+
+aside p
+  {
+    width: 67%;
+  }
+
+aside a
+  {
+    color: red;
+  }
+
+aside a:hover
+  {
+    color: blue;
+    text-decoration: none;
+  }
+
+@media all and (max-width: 1024px)
+  {
+    body
+      {
+        margin: 0px;
+      }
+    #page
+      {
+        flex-direction: column;
+      }
+    #rubrique
+      {
+        width: auto;
+      }
+    header
+      {
+        height: auto;
+        margin-bottom: 5px;
+        margin-top: 0px;
+        align-items: flex-start;
+      }
+    #titre h1
+      {
+        font-size: 4em;
+      }
+    #titre p
+      {
+        width: initial;
+        font-size: 1em;
+      }
+    aside
+      {
+        flex-direction: row;
+        width: auto;
+        background-color: rgb(218,236,240);
+        border: none;
+        align-items: center;
+      }
+    section
+      {
+        flex-direction: column;
+      }
+    #experiences
+      {
+        width: auto;
+      }
+    #compétences
+      {
+        width: auto;
+      }
+    #formations
+      {
+        width: auto;
+      }
+    section img
+      {
+      margin-right: 5px;
+      }
+    #adresse
+      {
+        width: 40%;
+        align-items: center;
+      }
+    #telephone
+      {
+        width: 20%;
+        align-items: center;
+      }
+    #mail
+      {
+       width: 30%;
+       align-items: center;
+       margin-top: 0px;
+      }
+    footer
+      {
+        border: none;
+      }
+    #photo
+      {
+        float: right;
+        margin-top: 3px;
+      }
+    #photo img
+      {
+        border-radius: 5px 15px 5px 5px;
+      }
+    #photo p
+      {
+        margin-bottom: 0px;
+        margin-top: 0px;
+      }
+    section h2
+      {
+        font-size: 3em;
+        margin-bottom: 5px;
+      }
+
+  }
+@media all and (max-width: 500px)
+  {
+    aside
+      {
+        align-items: flex-start;
+      }
+    #adresse
+      {
+        flex-direction: column;
+      }
+    #telephone
+      {
+       width: 30%;
+       flex-direction: column;
+      }
+    #telephone img
+      {
+        margin-top: 15px;
+      }
+    #mail
+      {
+      flex-direction: column;
+      }
+    #mail img
+      {
+        margin-top: 15px;
+      }

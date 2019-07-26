@@ -1,0 +1,33 @@
+body
+    {
+      background-color: #4e3f57;
+      font-family: 'Trebuchet MS', Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      padding-right: 20px;
+      padding-left: 20px;
+}
+
+header
+    {
+      text-align: center;
+    }
+
+.ligne
+    {
+      display: flex;
+      flex-direction: row;
+      height: 320px;
+    }
+
+.ligne img
+    {
+      height: 280px;
+      width: 360px;
+    }
+
+p
+    {
+      color: white;
+      margin-top: 5px;
+    }
